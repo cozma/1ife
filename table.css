@@ -1,0 +1,97 @@
+
+
+.names:hover {
+    color: grey;
+}
+
+#wrapper {
+    margin: 0 auto;
+}
+
+
+
+#foodSection {
+    margin-top: 30px;
+}
+
+#foodSection ul {
+    list-style-type: none;
+    padding: 0;
+    line-height: 1.9em;
+}
+
+#foodSection form {
+    float: left;
+    padding: 10px 10px 10px 10px;
+    background-color: clear;
+    border: 2px;
+}
+
+#foodSection form strong {
+    font-size: 1.167em;
+    font-weight: bold;
+}
+
+#foodSection form.last {
+    margin: 0;
+    border: 0;
+}
+
+#foodSection fieldset {
+    position: relative;
+    min-width: 20px;
+    height: 20px;
+    margin: 0;
+    padding: 10px;
+    background: #9ca7b0;
+
+    border: 0;
+    border-radius: 8px;
+}
+
+fieldset{
+    background-color: black;
+}
+
+#foodSection fieldset .button {
+    position: absolute;
+    bottom: 10px;
+}
+
+#foodSection .container {
+    overflow: auto;
+    display: block;
+    width: 30%;
+    padding: 5px 0;
+    position: absolute;
+    right: 0px;
+}
+
+#footer {
+    margin-top: 50px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.loading * {
+    display: none !important;
+}
+
+.names{
+    text-align: center;
+    color: black;
+}
+
+@media only screen and (max-width : 568px) {
+
+    #header, #foodSection, #readme, #footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    #foodSection .container {
+        height: 10.5em;
+        overflow: hidden;
+    }
+
+}
